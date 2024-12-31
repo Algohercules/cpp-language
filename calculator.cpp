@@ -11,12 +11,13 @@ cin>> a;
 cout<< "enter the value of b" <<endl;
 cin>> b;
 
-char op;
+char operation;
+
 cout<< "enter the operation you want to perform" <<endl;
 
-cin>> op;
+cin>> operation;
 
-switch ( op ) {
+switch ( operation ) {
 
    case '+' : cout<< (a + b)  << endl;
     break;

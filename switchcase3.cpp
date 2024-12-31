@@ -22,5 +22,6 @@ switch(ch) {
 
 }
 
+//continue is not valid in switch
 
 }
