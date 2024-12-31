@@ -15,7 +15,6 @@
 
   }
 
-
   int main () {
 
    int a , b;
@@ -24,9 +23,6 @@
    power(a,b);
 
    return 0;
-
-
-
 
 
   }

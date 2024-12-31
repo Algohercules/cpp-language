@@ -1,4 +1,5 @@
 #include <iostream>
+// just cant understand whats going inside the topic
 using namespace std;
 
 int main(){
