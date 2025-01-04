@@ -3,20 +3,19 @@
 #include<iostream>
 using namespace std;
 
-int printhello(){
-    
-    cout << "hello" <<endl;
-   return 3;
+int add( int num1 , int num2 ){
 
+    int sum = num1 + num2;
+
+    return sum;
 }
 
-// pehle hello print hoga phir 3 return hoga, returned 3 jaake value variable me store ho jayega phir hum us value ko use kr skte hain
+int main(){
 
+int a = 5;
+int b = 7;
 
-int main () {
+ cout << add (a , b) <<endl;
+ return 0;
 
-int val = printhello();
-cout << "val = " << val << endl;
-
-return 0;
 }
