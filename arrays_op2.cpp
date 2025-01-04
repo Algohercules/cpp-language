@@ -29,7 +29,7 @@ int main() {
 
      int third[15] = {2,7};
      int n = 15;
-     
+
     printarray ( third , 15);
 
     //initialising all locations with 0
@@ -40,6 +40,10 @@ int main() {
 
     printarray( fourth, 10);
 
+    //finding size of array
+
+    int fourthsize = sizeof(fourth)/sizeof(int);
+    cout<<"size of fourth is " << fourthsize <<endl;
 
 
 
