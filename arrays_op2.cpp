@@ -24,7 +24,7 @@ int main() {
      //initialising an array
      int second[3] = {5 , 7 , 11};
 
-     //accessing
+     //acessing
     cout << "value of 2nd index is" << second[2] << endl;
 
      int third[15] = {2,7};
