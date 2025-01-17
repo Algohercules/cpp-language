@@ -9,6 +9,7 @@ int main() {
 
     //declare
     int number[15];
+
     //accessing an arary
     cout << "value of 14th index is" << number[14] << endl;
 
@@ -24,8 +25,18 @@ int main() {
 
      cout << "printing the array" <<endl;
 
-for(int i = 0; i <= n; i++){
-cout << third[i] <<" ";
-}
+      for(int i = 0; i <= n; i++){
+      cout << third[i] <<" ";
+     }
 
+
+   int fourth[10] = {0};
+   cout<<"printing the array"<<endl;
+
+    n = 10;
+
+   //priting the array
+   for(int i=0; i<=n; i++)
+   cout<< fourth[i] <<" ";
+   
 }
