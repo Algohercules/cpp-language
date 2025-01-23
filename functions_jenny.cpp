@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 /*
 functions are a logical set of code which perform a particuler task
 */
@@ -29,20 +28,3 @@ functions are a logical set of code which perform a particuler task
 */
 
 
-
-// return type_ function name_ (parameters)_ {statemens}
-
-//how to call a function
-
-void welcome() {
-    cout<<"welcome to physics wallah"<<endl;
-}
-     int main(){
-        welcome();
-     }
-
-
-
-
-    
-    
