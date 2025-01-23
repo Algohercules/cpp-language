@@ -29,14 +29,19 @@ functions are a logical set of code which perform a particuler task
 */
 
 
-
-// return type_ function name_ (parameters)_ {statemens}
+/*
+ return type_ function name_ (parameters)_ 
+{
+   function body
+}
+*/
 
 //how to call a function
 
 void welcome() {
     cout<<"welcome to physics wallah"<<endl;
 }
+     
      int main(){
         welcome();
      }
