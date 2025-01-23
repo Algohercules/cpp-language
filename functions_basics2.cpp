@@ -1,6 +1,7 @@
 //function me value store kr skte hain
 
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 /*
@@ -33,5 +34,19 @@ function prototype :--
 if we want to define a function after the function call, we need to use the function prototype
 */
 
+// pow function:--
 
+int main(){
 
+   cout << pow(2,3) <<endl;
+   cout << sqrt(24) <<endl;
+   
+   int ans = sqrt(24);
+   cout << ans <<endl;
+
+   double doubleans = sqrt(24);
+   cout << doubleans <<endl;
+
+   }
+
+   
