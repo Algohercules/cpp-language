@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-
+/*
 int add(int num1 , int num2){
    int sum = num1 + num2;
    return sum;
@@ -26,3 +26,12 @@ int b = 7;
  return 0;
 
 }
+*/
+
+/*
+function prototype :--
+if we want to define a function after the function call, we need to use the function prototype
+*/
+
+
+
