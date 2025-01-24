@@ -135,14 +135,32 @@ local variable >> global variable
 //  pass by value ---> parameter vlues are copied to another variables
 
 
+// void changevalue (int z){
+//    z = 100;
+// }
 
-void changevalue (int z){
-   z = 100;
-}
+// int main(){
+//    int a = 5;
+//    changevalue(a);
+//    cout << a;
 
-int main(){
-   int a = 5;
-   changevalue(a);
-   cout << a;
+// }
 
-}
+
+
+// pass by reference  ---> parameter values are actually passed
+
+// int main (){
+//    int p = 5;
+//    int &q = p;
+
+//    q++;
+//    cout << p <<endl;  
+
+//     cout << &p <<endl;
+//     cout << &q <<endl;
+   
+   // }
+
+
+   
