@@ -93,9 +93,40 @@ cout << p;  -->5.7
 cout <<p; -->5
 }
 
+
+
 *local variables are the variables defined in one block
 
 *global variables are the variables which  exist such that they can be used in multiple function at ht same time
 
+*if there exist a local variable with the same name as of global variable inside a function then 
+
+local variable >> global variable
 
 */
+
+// int p = 5;
+// int main(){
+//    int p = 7;
+//    cout << p;   // --> 7
+
+//    //scope resolution operator : to access global variable in the local variable scope
+
+
+// }
+
+
+
+// formal parametersand actual parameters
+  
+
+// void function name (int param1 , int param2){
+
+//            ||code
+// }
+
+// int main(){
+//    int a = 1; b = 2;
+//    function name (a,b)  ---> actual parameters
+// }
+
