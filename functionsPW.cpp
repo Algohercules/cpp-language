@@ -93,6 +93,9 @@ cout << p;  -->5.7
 cout <<p; -->5
 }
 
+*local variables are the variables defined in one block
+
+*global variables are the variables which  exist such that they can be used in multiple function at ht same time
 
 
 */
