@@ -5,7 +5,7 @@ int main(){
 
     int adarsh;
     cout << "enter the value of adarsh" <<endl;
-    cin >> adarsh <<endl;
+    cin >> adarsh ;
     cout << adarsh;
 }
 
